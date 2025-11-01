@@ -1,0 +1,28 @@
+Marco Teórico
+El programa presentado tiene como objetivo la gestión y analisis básico de información de países mediante el uso de archivos CSV y estructuras de datos en Python.
+Permite visualizar, filtrar y calcular estadísticas sobre la población, superficie y continentes de distintos países.
+1. Archivos CSV
+Un archivo CSV (Comma-Separated Values) es un formato de texto plano usado para almacenar datos en forma de tabla. Cada línea representa un registro y las columnas se separan con comas.
+2. Estructuras de datos
+El programa utiliza listas y diccionarios, que son estructuras fundamentales de Python:
+    • Las listas (list) almacenan colecciones ordenadas de elementos.
+    • Los diccionarios (dict) guardan pares clave-valor, permitiendo acceder a datos por su nombre (por ejemplo, "Población" o "Continente").
+3. Funciones
+Las funciones (def) agrupan código reutilizable. En este caso se emplean para:
+    • Calcular promedios (calcular_promedio)
+    • Buscar países (buscar_pais)
+    • Mostrar estadísticas y listados filtrados (mostrar_estadisticas_menu, mostrar_paises)
+Esto mejora la organización, legibilidad y modularidad del código.
+4. Control de flujo y manejo de errores
+El uso de estructuras como try-except permite capturar errores y evitar que el programa se detenga inesperadamente.
+Además, se usa match-case (similar a switch en otros lenguajes) para simplificar la lógica de menús.
+5. Entrada y salida de datos
+El programa combina entrada de usuario (input()) con salida por consola (print()), haciendo posible la interacción directa con quien ejecuta el sistema.
+
+FUENTES:
+Python 3 Documentation – Official Site
+https://docs.python.org/3/
+Python.org – Tutorial oficial de Python
+https://docs.python.org/3/tutorial/
+RFC 4180
+https://www.rfc-editor.org/rfc/rfc4180
